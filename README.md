@@ -18,6 +18,6 @@ npm install
 ```sh
 npm run serve
 ```
-_After a successful build the site will be live on localhost:8080"
+_After a successful build the site will be live on localhost:8080"_
 
 _Happy Coding🍒_
