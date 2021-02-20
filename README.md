@@ -14,10 +14,10 @@ git clone git@github.com:JackieBinya/test-martians.git
 npm install
 ```
 
-3. To start you dev server in your terminal run the command
+3. To start you dev server; in your terminal run the command:
 ```sh
 npm run serve
 ```
-_After a successful build the site will be on localhost:8080"
+_After a successful build the site will be live on localhost:8080"
 
 _Happy Coding🍒_
