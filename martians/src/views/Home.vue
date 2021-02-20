@@ -18,9 +18,13 @@
       </div>
 
       <div class="pagination">
-        <button @click="currentPage = currentPage - 1" :disabled="currentPage == 0">&lt;&lt;Back</button>
+        <button @click="currentPage = currentPage - 1" :disabled="currentPage == 0">
+          &lt;&lt;Back
+        </button>
         <span>{{ currentPage + 1 }}</span>
-        <button @click="currentPage = currentPage + 1" :disabled="currentPage == 999">Next&gt;&gt;</button>
+        <button @click="currentPage = currentPage + 1" :disabled="currentPage == 999">
+          Next&gt;&gt;
+        </button>
       </div>
     </div>
   </div>
@@ -112,15 +116,15 @@ export default {
     transition: 1s ease-in-out;
     // outline: none;
 
-    &:hover{
+    &:hover {
       background: orangered;
       color: #fff;
-       border: 1px solid transparent;
+      border: 1px solid transparent;
     }
   }
 
-  span{
-    font-family:'Akaya Kanadaka', cursive; 
+  span {
+    font-family: "Akaya Kanadaka", cursive;
     font-size: 2rem;
     display: inline-block;
     padding: 0 0.5rem;
