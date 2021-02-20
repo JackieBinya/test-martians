@@ -1,25 +1,23 @@
-# OpenShift Clients
+# Martians 
 
-The OpenShift client `oc` simplifies working with Kubernetes and OpenShift
-clusters, offering a number of advantages over `kubectl` such as easy login,
-kube config file management, and access to developer tools. The `kubectl`
-binary is included alongside for when strict Kubernetes compliance is necessary.
+_Created using Vuejs, Vuex and SASS_
 
-To learn more about OpenShift, visit [docs.openshift.com](https://docs.openshift.com)
-and select the version of OpenShift you are using.
+## Installation
 
-## Installing the tools
+1. Clone this repo in your local using the command:
+```sh
+git clone git@github.com:JackieBinya/test-martians.git
+```
 
-After extracting this archive, move the `oc` and `kubectl` binaries
-to a location on your PATH such as `/usr/local/bin`. Then run:
+2. **cd** into the __martians__ directory and the command below in your terminal to to install the required modules.
+```sh
+npm install
+```
 
-    oc login [API_URL]
+3. To start you dev server in your terminal run the command
+```sh
+npm run serve
+```
+_After a successful build the site will be on localhost:8080"
 
-to start a session against an OpenShift cluster. After login, run `oc` and
-`oc help` to learn more about how to get started with OpenShift.
-
-## License
-
-OpenShift is licensed under the Apache Public License 2.0. The source code for this
-program is [located on github](https://github.com/openshift/origin).
-# svg-resource
+_Happy Coding🍒_
